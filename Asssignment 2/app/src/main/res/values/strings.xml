@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">APP</string>
+    <string name="forgotpass"><u>Forgot Password?</u></string>
+    <string name="DoReg"><u>Don\'t Have An Account? Register</u></string>
+</resources>

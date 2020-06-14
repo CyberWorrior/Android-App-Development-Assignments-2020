@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="#e1f5fe">
+
+    <EditText
+        android:id="@+id/txtRegisterName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="@drawable/shapes_edittext"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:hint="Name(Min. 3 Characters)"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:id="@+id/txtRegisterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="@drawable/shapes_edittext"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/txtRegisterName"
+        android:hint="Email Address"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:id="@+id/txtRegisterMobile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="@drawable/shapes_edittext"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtRegisterEmail"
+        android:hint="Mobile Number(10 digits)"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:id="@+id/txtRegisterAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="@drawable/shapes_edittext"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtRegisterMobile"
+        android:hint="Delivery Address"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:id="@+id/txtRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="@drawable/shapes_edittext"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtRegisterAddress"
+        android:hint="Password(Min. 4 characters)"
+        android:inputType="textPassword"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:id="@+id/txtRegisterCPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="@drawable/shapes_edittext"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtRegisterPassword"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0288d1"
+        android:text="Register"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_below="@id/txtRegisterCPassword"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"/>
+
+</RelativeLayout>
+</ScrollView>
