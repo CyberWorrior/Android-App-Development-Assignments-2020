@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Login/Register</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="myprofile">Profile</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="faqs">FAQS</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string name="preferences_file_name">Restaurant Preferences</string>
+
+    <string name="q1">Why do you need my email address?</string>
+    <string name="a1">All Restaurant Hub bookings are automatically confirmed via email. Without an address to send the confirmation to the booking can\'t be accepted. We\'ll also use your email address to send reminders for any bookings made more than 24 hours in advance of your dining date. </string>
+
+    <string name="q2">What happens if I get to the restaurant and they won\'t honour my deal?</string>
+    <string name="a2">Restaurant Hub restaurants are committed to honour promotions sold as part of any Restaurant Hub booking. It\'s a good idea to take a copy of your booking confirmation with you, just in case there is an issue. You should also take a copy of your promotion purchase with you. </string>
+
+    <string name="q3">I can see my favourite restaurant on the site - but I can\'t book with them. What can I do?</string>
+    <string name="a3">Unfortunately some restaurants don\'t take bookings or haven\'t yet shifted to a digital booking system. Where possible we still list these restaurants onsite - we want Restaurant Hub to list as many of your favourite restaurants as possible. If you still can\'t find your favourite haunt please email us on info@restauranthub.co.nz and we promise to tell the restaurant customers like you need them to get with the program...! </string>
+
+    <string name="q4">I\'m sure I\'ve booked, but I haven\'t had confirmation - what now?</string>
+    <string name="a4">We will always send you an automated confirmation when your booking is confirmed at the restaurant. If you haven\'t received a confirmation, please start the process again. If you continue to have an issue please give us a call on 09 928 6079 during business hours or drop us a line at info@restauranthub.co.nz and we\'ll be in touch to resolve the issue.</string>
+
+    <string name="q5">How do I cancel a booking?</string>
+    <string name="a5">To help our restaurants manage their sittings we ask our diners to give at least 24 hours\' notice of any cancellations. You can do this by calling your restaurant direct.
+        If you need to cancel less than 24 hours before your dinner date you can use the cancellation link within your reminder email (sent 24 hours before your reservation time). We also encourage our diners to follow this up with a call direct to the restaurant.
+        To amend a booking please call the restaurant direct, again endeavouring to give at least 24 hours\' notice.</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="order_history">Order History</string>
+    <string name="fast_food">Fast Food</string>
+</resources>

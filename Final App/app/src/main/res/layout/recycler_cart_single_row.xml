@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:weightSum="20">
+
+    <View
+        android:id="@+id/viewRemove"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:background="#000"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/txtCartFoodName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="13"
+        android:padding="10dp"
+        android:text="Food Name"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtCartFoodPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:padding="10dp"
+        android:text="Rs. 200"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
